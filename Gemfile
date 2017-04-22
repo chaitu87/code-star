@@ -10,6 +10,10 @@ end
 gem 'rails', '~> 5.0.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Using devise for authentication
+gem 'devise_token_auth'
+# Using for background services
+gem 'sidekiq'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
